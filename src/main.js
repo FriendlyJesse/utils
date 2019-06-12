@@ -1,8 +1,9 @@
-import { formatPassTime } from './data/data'
-export const isArr = someVar => {
-    return Object.prototype.toString.call(someVar).slice(8, -1).toLowerCase() === 'array'
-};
-
-export default {
-    formatPassTime
-}
+/**
+ * 
+ * @desc 入口文件
+ */
+export * from './object/object'
+export * from './array/array'
+export * from './regexp/regexp'
+export * from './cookie/cookie'
+export * from './os/os'

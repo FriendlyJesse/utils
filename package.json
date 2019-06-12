@@ -1,8 +1,8 @@
 {
   "name": "utils-jesse",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "utils",
-  "main": "main.js",
+  "main": "lib/main.js",
   "scripts": {
     "build": "babel -d lib src"
   },
