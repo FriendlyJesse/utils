@@ -1,13 +1,8 @@
-/**
- * @desc webpack打包入口文件  
- * @example 自动引入子目录下所有js文件
- */
-let moduleExports = {};
+import { formatPassTime } from './data/data'
+export const isArr = someVar => {
+    return Object.prototype.toString.call(someVar).slice(8, -1).toLowerCase() === 'array'
+};
 
-const r = require.context('./', true, /^\.\/.+\/.+\.js$/);
-r.keys().forEach(key => {
-    let attr = key.substring(key.lastIndexOf('/') + 1, key.lastIndexOf('.'));
-    moduleExports[attr] = r(key);
-});
-
-export default moduleExports;
+export default {
+    formatPassTime
+}
