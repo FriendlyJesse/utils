@@ -2,7 +2,7 @@
 工具类
 
 ```
-npm install utils-jesse
+npm install --save utils-jesse
 ```
 
 name       | file  | desc
