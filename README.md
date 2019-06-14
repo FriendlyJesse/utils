@@ -1,6 +1,10 @@
 # utils
 工具类
 
+```
+npm install utils-jesse
+```
+
 name       | file  | desc
 :---:      | :--:  | :---:
 arrayEqual | array | 判断两个数组是否相等
