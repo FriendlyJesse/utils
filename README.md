@@ -18,3 +18,4 @@ isIdCard | regexp | 判断是否为身份证号
 isEmail | regexp | 判断是否为邮箱地址
 isPhoneNum | regexp | 判断是否为手机号
 isUrl | regexp | 判断是否为URL地址
+formatTime | formatTime | 格式化时间戳
